@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "flames-victorian-madness",
+	"version": "${version}",
+	"name": "Flame's Victorian Madness",
+	"description": "This mod is all about Victorian blocks, themes, and all sorts of fun madness! With this mod you can experience not only new wallpapers, decorations, and blocks. But also three new biomes and several new paintings!",
+	"authors": [
+		"Flamesparks4143"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/flames-victorian-madness/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.flamesparks4143.victorian_madess.FlamesVictorianMadness"
+		],
+		"client": [
+          "net.flamesparks4143.victorian_madess.FlamesVictorianMadnessClient"
+		],
+		"fabric-datagen": [
+			"net.flamesparks4143.victorian_madess.FlameSVictorianMadnessDataGenerator"
+		]
+	},
+	"mixins": [
+		"flames-victorian-madness.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

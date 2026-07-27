@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "flames-victorian-madness:steel_block"
+    }
+  ],
+  "result": {
+    "item": "flames-victorian-madness:steel_ingot",
+    "count": 9
+  }
+}
