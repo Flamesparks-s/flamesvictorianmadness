@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_terracotta"
+    },
+    "%": {
+      "item": "flames-victorian-madness:porcelain_block"
+    }
+  },
+  "pattern": [
+    "#%",
+    "%#"
+  ],
+  "result": {
+    "count": 4,
+    "item": "flames-victorian-madness:checkered_porcelain_light_gray_terracotta"
+  },
+  "show_notification": true
+}

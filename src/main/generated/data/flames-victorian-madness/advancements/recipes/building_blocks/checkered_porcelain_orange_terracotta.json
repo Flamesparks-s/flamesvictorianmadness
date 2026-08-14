@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_porcelain_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flames-victorian-madness:porcelain_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:checkered_porcelain_orange_terracotta"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_terracotta",
+      "has_porcelain_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:checkered_porcelain_orange_terracotta"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,4 @@
+// 1.20.1	2026-08-13T12:34:55.320732	Flame's Victorian Madness/Tags for minecraft:block
+d0f6812a0e1c6d2b7b8bb457ad61cea0132bb113 data\minecraft\tags\blocks\mineable\pickaxe.json
+bde9a8f183f508c910520abec497f6abf50a50bb data\minecraft\tags\blocks\mineable\axe.json
+148aecfebe7c080e09d49b7b124f2c93199540a9 data\minecraft\tags\blocks\needs_iron_tool.json
