@@ -16,7 +16,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     NEWSPAPER_BOY_HAT("newspaper_boy_hat", 55, new int[] { 11, 16, 15, 13 }, 5,
             SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0f, 0f, () -> Ingredient.ofItems(Items.LEATHER)),
     TOP_HAT("top_hat", 55, new int[] { 11, 16, 15, 13 }, 5,
-            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0f, 0f, () -> Ingredient.ofItems(Items.LEATHER))
+            SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0f, 0f, () -> Ingredient.ofItems(Items.LEATHER)),
+    FLOWER_CROWN("flower_crown", 55, new int[] { 11, 16, 15, 13 }, 5,
+            SoundEvents.BLOCK_FLOWERING_AZALEA_PLACE, 0f, 0f, () -> Ingredient.ofItems(Items.LEATHER))
 
     ;
     private final String name;

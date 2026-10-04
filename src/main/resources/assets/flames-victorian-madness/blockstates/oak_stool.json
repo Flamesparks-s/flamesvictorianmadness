@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "flames-victorian-madness:block/oak_stool"
+    },
+    "facing=south": {
+      "model": "flames-victorian-madness:block/oak_stool",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "flames-victorian-madness:block/oak_stool",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "flames-victorian-madness:block/oak_stool",
+      "y": 90
+    }
+  }
+}

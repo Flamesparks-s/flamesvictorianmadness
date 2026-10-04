@@ -3,6 +3,8 @@ package net.flamesparks4143.victorian_madess;
 import net.fabricmc.api.ModInitializer;
 
 import net.flamesparks4143.block.ModBlocks;
+import net.flamesparks4143.entity.ModEntities;
+import net.flamesparks4143.item.ModArmorMaterials;
 import net.flamesparks4143.item.ModItemGroups;
 import net.flamesparks4143.item.ModItems;
 import org.slf4j.Logger;
@@ -15,8 +17,9 @@ public class FlamesVictorianMadness implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-
+		ModEntities.registerModEntities();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
 	}
 }
