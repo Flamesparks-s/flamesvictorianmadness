@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "flames-victorian-madness:steel_nugget"
+    },
+    "%": {
+      "item": "minecraft:light_gray_stained_glass"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "%#%",
+    "#%#"
+  ],
+  "result": {
+    "count": 4,
+    "item": "flames-victorian-madness:light_gray_cathedral_stained_glass"
+  },
+  "show_notification": true
+}

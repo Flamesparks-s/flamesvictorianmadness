@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "flames-victorian-madness:block/red_creeper_charge"
+  }
+}

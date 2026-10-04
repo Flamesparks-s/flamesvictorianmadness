@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "flames-victorian-madness:block/andesite_pillar_top",
+    "side": "flames-victorian-madness:block/andesite_pillar"
+  }
+}

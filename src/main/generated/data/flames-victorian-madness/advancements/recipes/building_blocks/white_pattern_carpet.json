@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:white_pattern_carpet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_pattern_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flames-victorian-madness:white_pattern_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_white_pattern_wool",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:white_pattern_carpet"
+    ]
+  },
+  "sends_telemetry_event": false
+}

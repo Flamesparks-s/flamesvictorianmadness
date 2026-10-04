@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flames-victorian-madness:block/pink_foxgloves_bottom"
+    },
+    "half=upper": {
+      "model": "flames-victorian-madness:block/pink_foxgloves_top"
+    }
+  }
+}

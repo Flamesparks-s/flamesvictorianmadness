@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purple_foxgloves": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flames-victorian-madness:purple_foxgloves"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "flames-victorian-madness:purple_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_foxgloves",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flames-victorian-madness:purple_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

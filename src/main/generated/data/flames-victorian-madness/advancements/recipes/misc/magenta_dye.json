@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_short_lilac": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flames-victorian-madness:short_lilac"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "flames-victorian-madness:magenta_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_short_lilac",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flames-victorian-madness:magenta_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

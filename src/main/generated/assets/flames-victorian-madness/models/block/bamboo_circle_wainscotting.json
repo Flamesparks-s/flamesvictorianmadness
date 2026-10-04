@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "flames-victorian-madness:block/bamboo_circle_wainscotting"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:peony"
+    }
+  },
+  "pattern": [
+    "## "
+  ],
+  "result": {
+    "count": 4,
+    "item": "flames-victorian-madness:short_poney_bush"
+  },
+  "show_notification": true
+}

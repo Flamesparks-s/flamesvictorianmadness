@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "flames-victorian-madness:block/gold_door_flower_bottom",
+    "top": "flames-victorian-madness:block/gold_door_flower_top"
+  }
+}

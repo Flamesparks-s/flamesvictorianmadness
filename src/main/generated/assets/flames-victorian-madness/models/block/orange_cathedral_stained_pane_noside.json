@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "flames-victorian-madness:block/orange_cathedral_stained_glass"
+  }
+}

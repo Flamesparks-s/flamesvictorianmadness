@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "flames-victorian-madness:item/netherite_rapier"
+  }
+}

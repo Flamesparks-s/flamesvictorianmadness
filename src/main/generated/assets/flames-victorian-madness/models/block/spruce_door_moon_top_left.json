@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "flames-victorian-madness:block/spruce_door_moon_bottom",
+    "top": "flames-victorian-madness:block/spruce_door_moon_top"
+  }
+}

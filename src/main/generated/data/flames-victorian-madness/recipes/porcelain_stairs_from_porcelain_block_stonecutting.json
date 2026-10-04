@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "flames-victorian-madness:porcelain_block"
+  },
+  "result": "flames-victorian-madness:porcelain_stairs"
+}

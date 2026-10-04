@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purple_eye_daisy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flames-victorian-madness:purple_eye_daisy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "flames-victorian-madness:yellow_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_eye_daisy",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flames-victorian-madness:yellow_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

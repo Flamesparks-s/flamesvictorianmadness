@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "flames-victorian-madness:block/lime_pattern_wool"
+  }
+}

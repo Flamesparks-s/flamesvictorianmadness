@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "flames-victorian-madness:block/warped_door_sun_bottom",
+    "top": "flames-victorian-madness:block/warped_door_sun_top"
+  }
+}

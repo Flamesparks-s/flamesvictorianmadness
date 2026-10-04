@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:lilac"
+    }
+  },
+  "pattern": [
+    "## "
+  ],
+  "result": {
+    "count": 4,
+    "item": "flames-victorian-madness:short_lilac"
+  },
+  "show_notification": true
+}

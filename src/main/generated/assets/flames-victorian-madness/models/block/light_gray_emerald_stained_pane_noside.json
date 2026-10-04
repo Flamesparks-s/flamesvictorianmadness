@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "flames-victorian-madness:block/light_gray_emerald_stained_glass"
+  }
+}

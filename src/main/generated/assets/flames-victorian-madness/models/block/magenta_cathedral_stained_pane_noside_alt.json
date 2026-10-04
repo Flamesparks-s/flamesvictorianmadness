@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "flames-victorian-madness:block/magenta_cathedral_stained_glass"
+  }
+}

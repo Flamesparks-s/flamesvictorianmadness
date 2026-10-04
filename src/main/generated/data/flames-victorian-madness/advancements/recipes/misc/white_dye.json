@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "flames-victorian-madness:white_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_foxgloves": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flames-victorian-madness:white_foxgloves"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_white_foxgloves",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flames-victorian-madness:white_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "flames-victorian-madness:item/yellow_zipper_paper"
+  }
+}

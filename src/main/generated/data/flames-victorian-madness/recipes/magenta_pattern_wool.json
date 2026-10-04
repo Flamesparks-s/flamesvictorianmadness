@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "%": {
+      "item": "minecraft:magenta_wool"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "%#%",
+    "#%#"
+  ],
+  "result": {
+    "count": 4,
+    "item": "flames-victorian-madness:magenta_pattern_wool"
+  },
+  "show_notification": true
+}

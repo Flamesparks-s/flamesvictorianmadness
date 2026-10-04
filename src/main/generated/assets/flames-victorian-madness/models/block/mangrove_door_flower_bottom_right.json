@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "flames-victorian-madness:block/mangrove_door_flower_bottom",
+    "top": "flames-victorian-madness:block/mangrove_door_flower_top"
+  }
+}

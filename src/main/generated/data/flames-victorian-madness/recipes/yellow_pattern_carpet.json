@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "%": {
+      "item": "flames-victorian-madness:yellow_pattern_wool"
+    }
+  },
+  "pattern": [
+    "%%"
+  ],
+  "result": {
+    "count": 3,
+    "item": "flames-victorian-madness:yellow_pattern_carpet"
+  },
+  "show_notification": true
+}

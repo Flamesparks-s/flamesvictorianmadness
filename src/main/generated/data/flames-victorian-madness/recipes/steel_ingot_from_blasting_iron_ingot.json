@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 125,
+  "experience": 0.0,
+  "group": "steel",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "flames-victorian-madness:steel_ingot"
+}

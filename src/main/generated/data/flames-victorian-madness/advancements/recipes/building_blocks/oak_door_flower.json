@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flower_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flames-victorian-madness:flower_pane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oak_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:oak_door_flower"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_flower_pane",
+      "has_oak_door",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:oak_door_flower"
+    ]
+  },
+  "sends_telemetry_event": false
+}

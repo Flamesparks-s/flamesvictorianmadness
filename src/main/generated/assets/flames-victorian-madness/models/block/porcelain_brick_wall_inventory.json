@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "flames-victorian-madness:block/porcelain_bricks"
+  }
+}

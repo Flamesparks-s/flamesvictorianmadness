@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "!": {
+      "item": "minecraft:oak_door"
+    },
+    "#": {
+      "item": "flames-victorian-madness:flower_pane"
+    }
+  },
+  "pattern": [
+    "!#"
+  ],
+  "result": {
+    "item": "flames-victorian-madness:oak_door_flower"
+  },
+  "show_notification": true
+}

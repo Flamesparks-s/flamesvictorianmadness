@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_foxgloves": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flames-victorian-madness:blue_foxgloves"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "flames-victorian-madness:blue_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_foxgloves",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flames-victorian-madness:blue_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

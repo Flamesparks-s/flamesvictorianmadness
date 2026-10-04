@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "flames-victorian-madness:block/cherry_corners_wainscotting"
+  }
+}

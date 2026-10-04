@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flames-victorian-madness:block/purple_eye_daisy"
+  }
+}

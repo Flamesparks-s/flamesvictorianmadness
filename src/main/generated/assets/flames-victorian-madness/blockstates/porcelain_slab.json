@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "flames-victorian-madness:block/porcelain_slab"
+    },
+    "type=double": {
+      "model": "flames-victorian-madness:block/porcelain_block"
+    },
+    "type=top": {
+      "model": "flames-victorian-madness:block/porcelain_slab_top"
+    }
+  }
+}

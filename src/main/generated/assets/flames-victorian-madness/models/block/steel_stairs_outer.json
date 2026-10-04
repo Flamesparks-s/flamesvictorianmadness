@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "flames-victorian-madness:block/steel_block",
+    "side": "flames-victorian-madness:block/steel_block",
+    "top": "flames-victorian-madness:block/steel_block"
+  }
+}

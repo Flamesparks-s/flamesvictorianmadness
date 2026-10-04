@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "flames-victorian-madness:block/gray_pattern_wool",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "flames-victorian-madness:block/gray_pattern_wool",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "flames-victorian-madness:block/gray_pattern_wool"
+    },
+    "facing=west": {
+      "model": "flames-victorian-madness:block/gray_pattern_wool",
+      "y": 90
+    }
+  }
+}
+

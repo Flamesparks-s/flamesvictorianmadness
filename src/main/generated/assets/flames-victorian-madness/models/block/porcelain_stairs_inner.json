@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "flames-victorian-madness:block/porcelain_block",
+    "side": "flames-victorian-madness:block/porcelain_block",
+    "top": "flames-victorian-madness:block/porcelain_block"
+  }
+}

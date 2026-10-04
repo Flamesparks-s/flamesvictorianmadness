@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "flames-victorian-madness:block/red_cathedral_stained_pane_top",
+    "pane": "flames-victorian-madness:block/red_cathedral_stained_glass"
+  }
+}

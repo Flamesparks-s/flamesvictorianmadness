@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "group": "porcelain",
+  "ingredient": {
+    "item": "flames-victorian-madness:porcelain_bricks"
+  },
+  "result": "flames-victorian-madness:cracked_porcelain_bricks"
+}

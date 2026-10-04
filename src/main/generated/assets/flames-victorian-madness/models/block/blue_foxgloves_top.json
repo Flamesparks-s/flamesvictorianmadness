@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flames-victorian-madness:block/blue_foxgloves_top"
+  }
+}
