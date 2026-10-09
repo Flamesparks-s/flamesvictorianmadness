@@ -1,4 +1,4 @@
-// 1.20.1	2026-10-04T15:54:36.2019824	Flame's Victorian Madness/Block Loot Tables
+// 1.20.1	2026-10-09T13:50:51.8798465	Flame's Victorian Madness/Block Loot Tables
 151d69e21ab5709e1b7515f560e3c2d71f4d199a data\flames-victorian-madness\loot_tables\blocks\brown_thing.json
 a4f70a6bb15e8d73490c9bd6f4c986367b5d8b75 data\flames-victorian-madness\loot_tables\blocks\starred_porcelain_lime_concrete.json
 db2fb8d1fc35ee76eff89174a725cf73a285a814 data\flames-victorian-madness\loot_tables\blocks\cherry_stool.json
@@ -386,8 +386,8 @@ a530a3b33ca09f11d4a10a929655a6f880e94ab6 data\flames-victorian-madness\loot_tabl
 5a5179850f61aac6cab55b8550cb7e5b12280dc6 data\flames-victorian-madness\loot_tables\blocks\crimson_arm_chair.json
 376d8487166f6f6af7c61b88ff4f021ff2a6f47b data\flames-victorian-madness\loot_tables\blocks\gray_two_starred_wallpaper.json
 bf91ba3b3d3ebe085bef647ec855cfeb8e7dd30d data\flames-victorian-madness\loot_tables\blocks\green_pattern_wool.json
-d80f9b8424b38c541f497f0be1e9baf50b075593 data\flames-victorian-madness\loot_tables\blocks\white_snout.json
 9eda9659d0149438a2d0bd37cb07e2546e81f9aa data\flames-victorian-madness\loot_tables\blocks\starred_porcelain_purple_concrete.json
+d80f9b8424b38c541f497f0be1e9baf50b075593 data\flames-victorian-madness\loot_tables\blocks\white_snout.json
 39c39382332e30c6c032f6e088647f2c6b4d5a0b data\flames-victorian-madness\loot_tables\blocks\light_gray_thing.json
 78572eb8057b32457e2bf361306c595016e28dc6 data\flames-victorian-madness\loot_tables\blocks\light_gray_diamond_wallpaper.json
 de49d69a38cbbefb0c33c3e1ebc714607c862412 data\flames-victorian-madness\loot_tables\blocks\spruce_chair.json

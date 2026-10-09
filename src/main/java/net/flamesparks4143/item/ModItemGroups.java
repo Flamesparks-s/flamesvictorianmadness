@@ -22,8 +22,6 @@ public class ModItemGroups {
                         entries.add(ModItems.FLOWER_CROWN);
                         entries.add(ModItems.CHISEL);
 
-                        entries.add(ModItems.CHAIN_LINKS_BANNER_PATTERN);
-
                         entries.add(ModItems.IRON_RAPIER);
                         entries.add(ModItems.COPPER_RAPIER);
                         entries.add(ModItems.GOLD_RAPIER);
@@ -489,6 +487,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLANK_WALL);
 
                         entries.add(ModItems.VICTORIAN_BANNER_PATTERN);
+                        entries.add(ModItems.CHAIN_LINKS_BANNER_PATTERN);
+
                         entries.add(ModBlocks.WHITE_CHAIN_LINKS_WALLPAPER);
                         entries.add(ModBlocks.WHITE_CHECKERED_WALLPAPER);
                         entries.add(ModBlocks.WHITE_CIRCULAR_WALLPAPER);

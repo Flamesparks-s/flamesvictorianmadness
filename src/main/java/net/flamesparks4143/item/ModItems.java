@@ -1,10 +1,8 @@
 package net.flamesparks4143.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.flamesparks4143.block.ModBlocks;
 import net.flamesparks4143.item.custom.*;
 import net.flamesparks4143.item.custom.other_papers.creeper_charge.*;
 import net.flamesparks4143.item.custom.other_papers.flower_charge.*;
@@ -26,13 +24,11 @@ import net.flamesparks4143.item.custom.paper.purple.*;
 import net.flamesparks4143.item.custom.paper.red.*;
 import net.flamesparks4143.item.custom.paper.white.*;
 import net.flamesparks4143.item.custom.paper.yellow.*;
-import net.flamesparks4143.tag.BannerPatternTag;
+
 import net.flamesparks4143.victorian_madess.FlamesVictorianMadness;
-import net.minecraft.block.entity.BannerPattern;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -44,7 +40,7 @@ public class ModItems {
     public static final Item CHISEL = registerItem("chisel_tool", new ChiselTool(new Item.Settings().maxDamage(64)));
     public static final Item GLASS_CUTTER = registerItem("glass_cutter", new GlassCutterTool(new Item.Settings().maxDamage(64)));
 
-    public static final Item CHAIN_LINKS_BANNER_PATTERN = registerItem("chain_links_banner_pattern", new BannerPatternItem(BannerPatternTag.CHAIN_LINKS_BANNER_PATTERN, new Item.Settings().maxCount(1)));
+    public static final Item CHAIN_LINKS_BANNER_PATTERN = registerItem("chain_links_banner_pattern", new Item(new FabricItemSettings()));
 
     public static final Item BLACK_CHAIN_LINK_PAPER = registerItem("black_chain_link_paper", new BlackChainLinkPaperItem(new Item.Settings()));
     public static final Item BLACK_CHECKERED_PAPER = registerItem("black_checkered_paper", new BlackCheckeredPaperItem(new Item.Settings()));
@@ -425,6 +421,7 @@ public class ModItems {
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STEEL_INGOT);
         entries.add(VICTORIAN_BANNER_PATTERN);
+        entries.add(CHAIN_LINKS_BANNER_PATTERN);
         entries.add(STEEL_NUGGET);
         entries.add(RAW_PORCELAIN);
         entries.add(PORCELAIN_BRICK);

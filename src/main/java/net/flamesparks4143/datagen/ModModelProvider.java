@@ -707,6 +707,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PORCELAIN_BRICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_PORCELAIN, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLASS_CUTTER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHAIN_LINKS_BANNER_PATTERN, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.IRON_RAPIER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_RAPIER, Models.HANDHELD);
